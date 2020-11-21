@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "HomeManager"
+    }
+  },
+  "defaultProject": "HomeManager",
+  "cli": {
+    "analytics": "5da1ad83-5e59-4854-ac9e-4a0793bd2524"
+  }
 }

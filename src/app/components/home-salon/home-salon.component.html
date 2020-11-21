@@ -1,0 +1,24 @@
+<div class="main">
+    <div class="component-label">
+        <span>Salon:</span>
+    </div>
+    <div class="room-temp-label">
+        <span>Room temperature:</span>
+    </div>
+    <div class="room-temp-data">
+        <span>{{temperature}}°C</span>
+    </div>
+    <div class="room-humidity-label">
+        <span>Room humidity:</span>
+    </div>
+    <div class="room-humidity-data">
+        <span>{{humidity}}%</span>
+    </div>
+    <div class="light-status-back">
+        <div [ngStyle]="{'width.%':light}" class="light-status-data"></div>
+    </div>
+    <div>
+        <span>light:{{light}}%</span>
+    </div>
+    <button (click)="toggleLight()">toggleLight</button>
+</div>

@@ -1,3 +1,5 @@
 export const environment = {
-  production: true
+  production: true,
+  currentCity: 'Ashkelon',
+  socketEndpoint: 'ws://localhost:3000'
 };

@@ -1,0 +1,27 @@
+.body
+{
+    margin-top: 0%;
+    width: 100%;
+    color: azure;
+    font-size: 16px;
+    
+    display: grid;
+    
+    grid-template-areas:
+      "weatherComponent c2r1 "
+      "salonComponent c2r2"
+      "c1r3 c2r3";
+}
+
+
+
+
+
+.weatherComponent{
+    padding: 1% 5% 1% 5%;
+    grid-area: weatherComponent;
+}
+.salonComponent{
+    padding: 1% 5% 1% 5%;
+    grid-area:  salonComponent;
+}
